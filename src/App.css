@@ -1,38 +1,83 @@
-.App {
+* {
+  font-family: sans-serif;
+  background: #222;
+}
+.tip-calculator {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  border: orange solid 1px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 40px orange;
+  background: white;
+
+}
+
+.tip-calculator h2 {
+  margin-bottom: 20px;
   text-align: center;
+  font-weight: 100;
+  font-size: 40px;
+  background: -webkit-linear-gradient(left, orange, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tip-calculator label {
+  display: block;
+  margin-bottom: 10px;
+  color: #999;
+  background: white;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tip-calculator input[type="number"],.tip-calculator input[type="text"],
+.tip-calculator select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: gray solid 2px;
+  color: #fff;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  background: #444;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button{
+  width: 100%;
+  font-size: large;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
   color: white;
+  border: orange solid 2px;
+  background: -webkit-linear-gradient(left, orange, white);;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+span{
+  color: #FF6D60;
+  background: white;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  display: flex;
+  justify-content: center;
+  background: white;
+  padding: 10px;
+  border: solid 1px orange;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.inputField,.results{
+  width: 100%;
+  background: white;
+
+}
+p,img{
+  color: gray;
+  background: white;
 }
