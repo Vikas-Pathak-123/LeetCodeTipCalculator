@@ -1,3 +1,4 @@
+
 # Question 3: 🧮 Tip Calculator
 
 # 📝 Problem Description:
@@ -59,3 +60,23 @@
 >By completing this question, the candidate demonstrates their skills in building user-friendly interfaces, handling input validation, and implementing business logic. These are essential abilities for front-end developers who work on building interactive web applications. Additionally, the question provides an opportunity to showcase the candidate's problem-solving skills and attention to detail.
 
 >Overall, the Tip Calculator question serves as a practical test case for assessing a candidate's knowledge and expertise in React development and form handling.
+>
+# [Github Repository ✍️](https://github.com/Vikas-Pathak-123/LeetCodeTipCalculator)
+
+# [CodeSendBox Link 💻](https://codesandbox.io/s/leetcodetipcalculator-k6u3cl)
+
+
+# 🚀🔥 Get creative and build an awesome Tip Calculator! 💰💡💯
+
+
+This project is a Tip Calculator component for a restaurant application.
+
+### Author
+
+By  **Vikas Pathak**
+
+Contact:  vi.pathak@pm.me
+
+Mob: +91 (8574) 259050
+
+
