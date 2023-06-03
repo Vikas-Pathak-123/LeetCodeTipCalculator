@@ -1,57 +1,52 @@
-# Question No.3
-# Problem Description: Tip Calculator
+
+# Question 3:  Tip Calculator
+
+# Problem Description:
 
 >You are tasked with creating a Tip Calculator component for a restaurant application. The component should allow the user to enter the bill amount, select a tip percentage, and specify the number of people to split the bill with. Upon submitting the form, the component should calculate the total amount including the tip and the tip amount per person.
 
 ## The Tip Calculator component should have the following functionality:
 
-1. Input fields for the bill amount, tip percentage, and number of people.
-2. Error messages should be displayed if any of the following conditions are not met:
+>1. Input fields for the bill amount, tip percentage, and number of people.
+>2. Error messages should be displayed if any of the following conditions are not met:
 	- The bill amount is empty, zero, or a negative value.
 	- The tip percentage is not selected.
 	- The number of people is empty, zero, a negative value, or a non-integer.
-3. The form should be submitted when the "Calculate" button is clicked.
-4. After submission, the component should display the total bill amount with the tip and the tip amount per person.
+>3. The form should be submitted when the "Calculate" button is clicked.
+>4. After submission, the component should display the total bill amount with the tip and the tip amount per person.
 
 
 # Sample Test Cases
 
 ## 1. Calculate Total Amount and Tip Per Person
-
-**Input:**
-
-Bill Amount: $100
-
-Tip Percentage: 15%
-
-Number of People: 2
+>## Input:
+>Bill Amount: $100
+>Tip Percentage: 15%
+>Number of People: 2
 
 
-**Expected Output:**
+>## Expected Output:
+>Total Bill Amount with Tip: $115.00
+>Tip Amount per person: $7.50
 
-Total Bill Amount with Tip: $115.00
-
-Tip Amount per person: $7.50
-
-**Explanation:** The bill amount is $100. With a tip percentage of 15%, the tip amount is calculated as $100 * (15 / 100) = $15. The total bill amount is $100 + $15 = $115. The tip amount per person is $15 / 2 = $7.50.
-
+>## Explanation:
+>The bill amount is $100. With a tip percentage of 15%, the tip amount is calculated as $100 * (15 / 100) = $15. The total bill amount is $100 + $15 = $115. The tip amount per person is $15 / 2 = $7.50.
+---
 ## 2. Display Error for Zero Bill Amount
 
-**Input:**
-
-Bill Amount: $0
-
-Tip Percentage: 15%
-
-Number of People: 2
+>## Input:
+>Bill Amount: $0
+>Tip Percentage: 15%
+>Number of People: 2
 
 
-**Expected Output:**
+>## Expected Output:
+> **Error Message:** "Bill amount must be greater than zero"
 
-**Error Message:** "Bill amount must be greater than zero"
+>## Explanation:
+> The bill amount is zero, which is not allowed. An error message should be displayed.
 
-**Explanation:** The bill amount is zero, which is not allowed. An error message should be displayed.
-
+---
 
 >## Context:
 > The Tip Calculator is a common feature in many restaurant applications or websites. It provides a convenient way for users to calculate the total bill amount including the tip and the tip amount per person when dining out with friends or family. By allowing users to input the bill amount, select a tip percentage, and specify the number of people, the Tip Calculator simplifies the process of splitting the bill and ensures accuracy in calculating the tip.
