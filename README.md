@@ -1,4 +1,4 @@
-
+# Question No.3
 # Problem Description: Tip Calculator
 
 >You are tasked with creating a Tip Calculator component for a restaurant application. The component should allow the user to enter the bill amount, select a tip percentage, and specify the number of people to split the bill with. Upon submitting the form, the component should calculate the total amount including the tip and the tip amount per person.
@@ -19,6 +19,7 @@
 ## 1. Calculate Total Amount and Tip Per Person
 
 **Input:**
+
 Bill Amount: $100
 
 Tip Percentage: 15%
@@ -37,6 +38,7 @@ Tip Amount per person: $7.50
 ## 2. Display Error for Zero Bill Amount
 
 **Input:**
+
 Bill Amount: $0
 
 Tip Percentage: 15%
